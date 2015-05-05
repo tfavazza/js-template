@@ -9,15 +9,15 @@ var trace = function(){
 var App = App || {};
 
 App.square = function(x){
-  return x * x
+  return x * x;
 };
 
 App.cube = function(x){
-  return x * x * x
+  return x * x * x;
 };
 
 App.greet = function(string){
-  return string = typeof string !== 'undefined' ? 'Hello ' + string : "Hello World";
+  return typeof string !== 'undefined' ? 'Hello ' + string : 'Hello World';
 };
 
 $(document).ready(function(){
