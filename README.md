@@ -1,3 +1,5 @@
+![General Assembly Logo](http://i.imgur.com/ke8USTq.png)
+
 # js-template-installation
 Directions for developers to install the js-template
 
