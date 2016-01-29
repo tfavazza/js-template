@@ -11,3 +11,8 @@ Directions for developers to install the js-template
 1. On GitHub create a new repo (without initializing with a README)
 1. Follow the instructions for pushing an already created repo to GitHub
 1. DONE!
+
+## [License](LICENSE)
+
+Source code distributed under the MIT license. Text and other assets copyright
+General Assembly, Inc., all rights reserved.
