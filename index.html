@@ -16,5 +16,61 @@
       velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
       cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
       est laborum.</p>
+      <form id="example">
+        <fieldset>
+          <legend>Upload example</legend>
+          <label>Given name:
+            <input type="text" name="sample[name][given]">
+          </label>
+          <label>Surname:
+            <input type="text" name="sample[name][surname]">
+          </label>
+          <fieldset>
+            <legend>Sex:</legend>
+            <label>Male
+              <input type="radio" name="sample[sex]" value="male">
+            </label>
+            <label>Female
+              <input type="radio" name="sample[sex]" value="female">
+            </label>
+          </fieldset>
+          <label>
+            Password: <input type="password" name="sample[secret]">
+          </label>
+          <label style="display: block">
+            What do you prefer:
+            <select multiple="multiple" name="sample[media][]">
+              <option>Books</option>
+              <option>Cinema</option>
+              <option>TV</option>
+            </select>
+          </label>
+          <label>What do you prefer:
+            <select name="sample[medium]">
+              <option>Books</option>
+              <option>Cinema</option>
+              <option>TV</option>
+            </select>
+          </label>
+          <fieldset>
+            <legend>Vehicle</legend>
+             <label>
+             <input type="checkbox" name="sample[vehicle][]" value="Bike">
+             I have a bike
+           </label>
+             <label>
+               <input type="checkbox" name="sample[vehicle][]" value="Car">
+               I have a car
+             </label>
+          </fieldset>
+          <label>
+            Describe yourself:
+            <textarea name="sample[description]" cols="50" rows="8"></textarea>
+          </label>
+          <p>
+            <input type="submit" value="Submit">
+          </p>
+        </fieldset>
+      </form>
     </body>
 </html>
